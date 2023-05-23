@@ -1,9 +1,16 @@
+import sys
+
+for p in sys.path:
+print(p)
+
 from sys import path
-path.append('..\\module’)
+
+path.append('...\\module’)
 
 import module
 
 print(module.counter)
+
 
 from module import suml, prodl
 
